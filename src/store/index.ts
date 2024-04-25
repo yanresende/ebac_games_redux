@@ -23,4 +23,4 @@ export function configuraStore(preloadedState?: PreloadedState<RootState>) {
 }
 
 export type RootState = ReturnType<typeof rootReducer>
-export type AppStore = ReturnType<typeof rootReducer>
+export type AppStore = ReturnType<typeof configuraStore>
